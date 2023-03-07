@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -17,8 +17,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:7002/eureka/
-  instance:
-    lease-renewal-interval-in-seconds: 30
 
 mybatis-plus:
   type-aliases-package: com.zhaoshf.cloud.domain.entity    # 所有Entity别名类所在包
